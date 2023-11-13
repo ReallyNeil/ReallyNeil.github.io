@@ -73,7 +73,9 @@ a {
     font-size:1.6em;
     float:right;
 }
-
+.experience{
+    display:inline;
+}
 .headshot{
     padding-top: 40px;
     margin:auto;
@@ -82,9 +84,14 @@ a {
 }
 .experience-header{
     font-size: 2em;
+    margin-left: 10%;
+    margin-right:10%
 }
 .bullets ul{
     margin-left: 10%;
     margin-right:10%;
     font-size: 1.5em;
+}
+.icon{
+    margin-left:10%;
 }
