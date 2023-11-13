@@ -10,16 +10,35 @@ body{
     color:white
 }
 
-
-#im{
-    color:greenyellow
+.logo{
+    font-size: 4em;
 }
-
+.im *{
+    display: inline;
+    color:#318B30;
+    
+}
+a {
+    text-decoration: none;
+  }
+.line{
+    
+    animation: flash 1s linear infinite;
+}
+@-webkit-keyframes flash {
+    0% { opacity: 1; }
+   49% { opacity: 1; }
+   50% { opacity: 0; }
+  100% { opacity: 0; }
+}
 .logo{
     font-family: 'Courier New', Courier, monospace;
 }
 .navigation{
     font-family: 'Courier Prime', Courier, monospace;
+}
+.intro h1{
+    line-height: 0.7;
 }
 .intro{
     font-size: 1.5em;
@@ -35,24 +54,31 @@ body{
 .header{
     font-family: 'Courier Prime', Courier, monospace;
 }
-.socials{
+.socials *{
+    margin-left:20%;
+    border: 3px solid white;
+    border-radius: 20px;
     font-family: 'Courier Prime', Courier, monospace;
+    display: inline;
+    font-size: 4em;
 }
 .title{
     text-align: center;
     font-size: 3em;
 }
 .header * {
-    font-size:1.6em;
     display: inline;
 }
 .navigation{
+    font-size:1.6em;
     float:right;
 }
 
 .headshot{
+    padding-top: 40px;
     margin:auto;
-    width: 50%;
+    width: 340px;
+    height: 340px;
 }
 .experience-header{
     font-size: 2em;
